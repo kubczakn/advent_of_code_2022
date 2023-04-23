@@ -38,8 +38,6 @@ import Debug.Trace
     - If not same row/col, move tail diagonally to be in same row/col
 -}
 
--- TODO: Compare path tail took in simulation to correct path 
-
 main :: IO ()
 main = do
   contents <- readFile "input.txt"
